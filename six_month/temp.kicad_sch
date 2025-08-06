@@ -601,7 +601,7 @@
 		)
 		(uuid "6cd90100-2be7-4115-b02c-5352802cc31a")
 	)
-	(text_box "I2C Address: 1110110 (0x76)"
+	(text_box "I2C Address: 0x76"
 		(exclude_from_sim no)
 		(at 33.274 26.162 0)
 		(size 32.004 4.064)
@@ -2408,7 +2408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/"
 			(at 66.04 54.61 0)
 			(effects
 				(font

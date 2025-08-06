@@ -1248,6 +1248,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.446 55.88)
+		(end 284.48 165.354)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f8d811e-cc58-41ae-9925-b39724856135)
+	)
+	(text "WS2812B-2020 RGB LEDS"
+		(exclude_from_sim no)
+		(at 25.908 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18830217-641c-497a-a52d-09fc8dfb5ba2")
+	)
 	(text_box "NMOS Driver"
 		(exclude_from_sim no)
 		(at 12.446 12.7 0)
@@ -1307,26 +1329,6 @@
 			(justify left top)
 		)
 		(uuid "c66b101c-bfd1-417e-a191-7f55ca2d1508")
-	)
-	(text_box "WS2812B-2020 RGB LEDS"
-		(exclude_from_sim no)
-		(at 12.446 55.626 0)
-		(size 272.796 106.68)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e66efed0-75ec-4662-8fb5-75c8543a469d")
 	)
 	(text_box "Logic Level Shifter"
 		(exclude_from_sim no)

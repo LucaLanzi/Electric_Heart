@@ -1044,25 +1044,27 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "USB C Connector (Power Only)"
-		(exclude_from_sim no)
-		(at 12.7 12.7 0)
-		(size 69.85 66.04)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(rectangle
+		(start 12.7 12.7)
+		(end 92.456 75.692)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(fill
 			(type none)
 		)
+		(uuid 54527a0a-c3ce-4a25-8099-359a1f7aaffe)
+	)
+	(text "USB C Connector (Power Only)"
+		(exclude_from_sim no)
+		(at 28.702 14.986 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
-		(uuid "b2eb2b5b-7a66-4444-85ab-38355789108f")
+		(uuid "13fe5563-da09-471f-8e68-f3a399562998")
 	)
 	(junction
 		(at 68.58 64.77)

@@ -100,7 +100,7 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 132 0 132 1)
+			(color 169 112 255 1)
 		)
 		(fill
 			(type none)
@@ -253,6 +253,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 255 255 1)
 			)
 		)
 		(uuid "dcc0e7a7-6d30-4d9c-94e4-497a7a62eb3e")
@@ -443,17 +444,6 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 131.064) (xy 93.726 131.064)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "258b812d-e7c4-4839-92e3-ee736fe00703")
-	)
-	(polyline
-		(pts
 			(xy 91.948 140.97) (xy 96.774 140.97)
 		)
 		(stroke
@@ -553,16 +543,6 @@
 	)
 	(polyline
 		(pts
-			(xy 74.676 116.84) (xy 74.93 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92b52634-b40c-4a8d-b559-1d4774682fbb")
-	)
-	(polyline
-		(pts
 			(xy 52.324 150.622) (xy 59.436 150.622)
 		)
 		(stroke
@@ -574,7 +554,7 @@
 	)
 	(polyline
 		(pts
-			(xy 74.676 108.712) (xy 74.676 116.84)
+			(xy 74.676 108.966) (xy 74.676 124.206)
 		)
 		(stroke
 			(width 0)
@@ -604,17 +584,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "af958ae8-cba6-4ced-9ebf-12901408a0a3")
-	)
-	(polyline
-		(pts
-			(xy 74.676 131.318) (xy 78.74 131.318)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 255 255 1)
-		)
-		(uuid "b27eabe8-1fe8-4c00-bb36-77616683cc94")
 	)
 	(polyline
 		(pts
@@ -695,7 +664,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.726 96.52) (xy 93.726 131.064)
+			(xy 93.726 96.52) (xy 93.726 124.206)
 		)
 		(stroke
 			(width 0)
@@ -717,7 +686,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.726 108.712) (xy 91.186 108.712)
+			(xy 93.726 109.22) (xy 91.186 109.22)
 		)
 		(stroke
 			(width 0)
@@ -728,7 +697,7 @@
 	)
 	(polyline
 		(pts
-			(xy 78.486 108.712) (xy 74.676 108.712)
+			(xy 78.486 108.966) (xy 74.676 108.966)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +741,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.186 108.458) (xy 91.186 108.712)
+			(xy 91.186 109.22) (xy 91.186 109.22)
 		)
 		(stroke
 			(width 0)
@@ -780,17 +749,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "edbc4939-48c3-4bd2-8a47-d7f2c31e8591")
-	)
-	(polyline
-		(pts
-			(xy 74.676 116.84) (xy 74.676 131.318)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 255 255 1)
-		)
-		(uuid "ee9c7e57-5429-4f6a-b7ca-e993d94d0b27")
 	)
 	(polyline
 		(pts
@@ -1049,7 +1007,7 @@
 		)
 	)
 	(sheet
-		(at 78.486 106.68)
+		(at 78.486 107.188)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1065,7 +1023,7 @@
 		)
 		(uuid "a958bc1b-93fd-4bcf-8be5-c4c684da90e3")
 		(property "Sheetname" "Display"
-			(at 78.486 105.9684 0)
+			(at 78.486 106.4764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1032,7 @@
 			)
 		)
 		(property "Sheetfile" "Display.kicad_sch"
-			(at 78.486 111.0746 0)
+			(at 78.486 111.5826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,49 +1045,6 @@
 			(project "six_month"
 				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 78.74 129.286)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ce899300-c820-4feb-a011-2ab9ca819c68")
-		(property "Sheetname" "Microphone"
-			(at 78.74 128.5744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "microphone.kicad_sch"
-			(at 78.74 133.6806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "six_month"
-				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
-					(page "10")
 				)
 			)
 		)

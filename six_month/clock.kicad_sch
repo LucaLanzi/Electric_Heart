@@ -5,183 +5,6 @@
 	(uuid "e9ec081b-3b7e-49a2-8c0e-3676ac52d0ac")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -422,6 +245,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "syms_foots:CR2032-BS-6-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CR2032-BS-6-1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "syms_foots:BAT-TH_CR2032-BS-6-1"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Battery-Holders-Clips-Contacts_Button-battery-holder-CR2032_C70377.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C70377"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CR2032-BS-6-1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.29) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.27) (xy -0.51 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.25 2.29) (xy 0.25 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.02 1.27) (xy 1.02 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "syms_foots:RV-3028-C732.768KHZ1PPMTAQC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -649,10 +616,32 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "I2C Address: "
+	(rectangle
+		(start 12.7 12.7)
+		(end 95.25 56.388)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0b365a83-2ce4-49da-bec4-a26148bb3314)
+	)
+	(text "RTC"
+		(exclude_from_sim no)
+		(at 15.24 14.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "028c0a12-18ed-4d53-9f55-3ebeb053037a")
+	)
+	(text_box "I2C Address: 0x52"
 		(exclude_from_sim no)
 		(at 13.716 16.256 0)
-		(size 17.526 4.826)
+		(size 21.082 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -668,26 +657,6 @@
 			(justify left top)
 		)
 		(uuid "e88d4530-cb15-43be-b34b-072c22019049")
-	)
-	(text_box "RTC"
-		(exclude_from_sim no)
-		(at 12.7 12.7 0)
-		(size 84.328 48.006)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "eb699b76-9997-465c-8447-3ec4eed265eb")
 	)
 	(junction
 		(at 66.04 46.99)
@@ -709,16 +678,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 46.99) (xy 83.82 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0910a319-a7e6-4ba7-9425-d6e1c403ff04")
-	)
-	(wire
-		(pts
 			(xy 66.04 46.99) (xy 83.82 46.99)
 		)
 		(stroke
@@ -736,6 +695,16 @@
 			(type default)
 		)
 		(uuid "3fdf8ec6-2f97-4071-be31-d67dad42d16f")
+	)
+	(wire
+		(pts
+			(xy 83.82 44.196) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7abb3d-ccdc-4b3d-87a6-cce17e32b070")
 	)
 	(wire
 		(pts
@@ -799,7 +768,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 35.56) (xy 83.82 31.75)
+			(xy 83.82 34.036) (xy 83.82 31.75)
 		)
 		(stroke
 			(width 0)
@@ -870,76 +839,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 83.82 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41ed19e4-5ca7-49b4-98ce-43ac6cfe7098")
-		(property "Reference" "BT1"
-			(at 87.376 37.5284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Coin_Cell"
-			(at 87.376 40.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery:Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
-			(at 83.82 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "460a0d4e-2b0c-4ff5-90d7-a9dc457cf08b")
-		)
-		(pin "1"
-			(uuid "d2761894-e862-41d3-a18d-68a718b1247e")
-		)
-		(instances
-			(project ""
-				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/206359c9-b7b4-4f02-b040-b8d6a2904fbc"
-					(reference "BT1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1079,6 +978,84 @@
 		)
 	)
 	(symbol
+		(lib_id "syms_foots:CR2032-BS-6-1")
+		(at 83.82 39.116 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9123b043-6609-40f6-b8a5-91d2ccae56e3")
+		(property "Reference" "B1"
+			(at 77.216 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CR2032-BS-6-1"
+			(at 77.216 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "syms_foots:BAT-TH_CR2032-BS-6-1"
+			(at 76.2 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Battery-Holders-Clips-Contacts_Button-battery-holder-CR2032_C70377.html"
+			(at 73.66 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C70377"
+			(at 71.12 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91d0d577-7791-4d4d-b5fc-21f39f4c3eee")
+		)
+		(pin "2"
+			(uuid "46be09f3-07ab-4f43-b56d-6bfb0e112d00")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/206359c9-b7b4-4f02-b040-b8d6a2904fbc"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "syms_foots:RV-3028-C732.768KHZ1PPMTAQC")
 		(at 41.91 35.56 0)
 		(unit 1)
@@ -1089,7 +1066,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbc65199-8099-43f7-ace2-4bc5279a2d86")
 		(property "Reference" "U2"
-			(at 41.91 24.892 0)
+			(at 41.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1074,7 @@
 			)
 		)
 		(property "Value" "RV-3028-C7 32.768KHZ 1PPM TA QC"
-			(at 41.91 27.432 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf"
 			(at 41.91 35.56 0)
 			(effects
 				(font
