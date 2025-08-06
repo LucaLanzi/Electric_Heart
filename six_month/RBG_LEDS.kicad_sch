@@ -1,0 +1,9013 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "769ef365-1ca4-4b49-9615-959791f45604")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logic_LevelTranslator:SN74LV1T34DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SN74LV1T34DCK"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 20.32 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+				(at -10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single buffer level shift"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?353*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LV1T34DCK_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LV1T34DCK_1_1"
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 1.016 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "syms_foots:SI2302_C4748714"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SI2302_C4748714"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "syms_foots:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C4748714"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SI2302_C4748714_0_1"
+				(polyline
+					(pts
+						(xy -3.05 2.29) (xy -3.05 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.29) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.78) (xy 0 1.78) (xy 0 2.54) (xy 2.54 2.54) (xy 2.54 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.02 -0.51) (xy -1.02 0.51) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0) (xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.51) (xy -2.54 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.29) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.78) (xy -2.54 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 0.76) (xy 3.3 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.51) (xy 1.78 -0.76) (xy 3.3 -0.76) (xy 2.54 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SI2302_C4748714_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.032)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "syms_foots:WS2812B-2020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C965555"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "NMOS Driver"
+		(exclude_from_sim no)
+		(at 12.446 12.7 0)
+		(size 76.2 42.418)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4575604a-0fa5-476f-a9ef-be30196cbdfd")
+	)
+	(text_box "Each LED requires 0.06 A. 30 * 0.06A = 1.8A\n5V Supply, 5v / 1.8A = 2.77 Ohm\nR <= 2.77 Ohm"
+		(exclude_from_sim no)
+		(at 64.262 19.05 0)
+		(size 22.352 13.716)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a84b5114-ec3c-4ff0-8774-4fa5320eed1e")
+	)
+	(text_box "LED_TOGGLE is driven by 3.3v Arduino GPIO. 1.5V Minimum for Saturation."
+		(exclude_from_sim no)
+		(at 64.262 36.322 0)
+		(size 22.606 12.192)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c66b101c-bfd1-417e-a191-7f55ca2d1508")
+	)
+	(text_box "WS2812B-2020 RGB LEDS"
+		(exclude_from_sim no)
+		(at 12.446 55.626 0)
+		(size 272.796 106.68)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e66efed0-75ec-4662-8fb5-75c8543a469d")
+	)
+	(text_box "Logic Level Shifter"
+		(exclude_from_sim no)
+		(at 89.408 12.7 0)
+		(size 56.642 42.418)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f8caccaa-92bc-4aba-bdb7-b0d26e58b07b")
+	)
+	(junction
+		(at 49.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06cf97fd-7cbf-499c-b715-93a29076c1dd")
+	)
+	(junction
+		(at 175.26 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1574ec6a-f1b2-4242-bbff-ab1a30a473b8")
+	)
+	(junction
+		(at 124.46 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a4f70bd-c4b2-419f-9469-9e0b27d6382f")
+	)
+	(junction
+		(at 251.46 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b3d4daf-07bc-4ec9-8549-e8ecb93cbf53")
+	)
+	(junction
+		(at 250.19 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eeb5aa1-94e3-4e23-813f-aac6c24588f8")
+	)
+	(junction
+		(at 124.46 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "281bd81d-240f-4b9f-a7e1-64b37e8d0901")
+	)
+	(junction
+		(at 97.79 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311d551f-66f0-4b5e-a8a6-9a6c02ef6aca")
+	)
+	(junction
+		(at 199.39 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ac9f7d7-4114-4ac6-b44a-8277b9265fd8")
+	)
+	(junction
+		(at 175.26 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45de32bf-09d5-4db1-9c5f-e8d5c8a11e9c")
+	)
+	(junction
+		(at 148.59 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47fc4ebf-0695-4f84-8a55-68871ea9a255")
+	)
+	(junction
+		(at 73.66 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1808a5-7084-4176-bc78-8145ae2fcf87")
+	)
+	(junction
+		(at 148.59 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "628ff90b-47aa-41c9-a869-bac0b8bc1932")
+	)
+	(junction
+		(at 38.1 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63515776-e049-4dce-a4e1-fd7ea8296707")
+	)
+	(junction
+		(at 251.46 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ea4e1f-9143-4366-9387-ba0737145f9f")
+	)
+	(junction
+		(at 226.06 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ec0606-6e1b-4eaa-9a49-edaac5e8407d")
+	)
+	(junction
+		(at 73.66 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73575f25-1f3b-44f8-957d-0e3873305470")
+	)
+	(junction
+		(at 199.39 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80d7fc75-9724-40bb-9348-24dfaef50eb0")
+	)
+	(junction
+		(at 124.46 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86c17ab2-749c-4407-a717-19f8a16d7fee")
+	)
+	(junction
+		(at 226.06 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a63089-aada-4fe0-8d3f-d123fbf53a01")
+	)
+	(junction
+		(at 173.99 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aedf626-8e46-45a4-a526-8a05bdc569e8")
+	)
+	(junction
+		(at 49.53 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e5c7ac4-6b49-43eb-b911-9e9b8624fb4a")
+	)
+	(junction
+		(at 97.79 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f8c868d-f07e-4062-9cb1-1dd125eadad0")
+	)
+	(junction
+		(at 45.72 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ceb4a4d-b519-49ec-8d75-7e035f58fda9")
+	)
+	(junction
+		(at 48.26 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2408b3b-698f-44ef-ba8e-b6455b078eea")
+	)
+	(junction
+		(at 226.06 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b565b788-3154-4378-8001-6cec30af2bae")
+	)
+	(junction
+		(at 148.59 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5981978-4866-4503-ba59-9085ac56da9e")
+	)
+	(junction
+		(at 118.11 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7544d0c-9412-4f7e-b3ba-438495e55e08")
+	)
+	(junction
+		(at 199.39 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da3828ca-478b-4761-8cbb-cdccbe0e89d9")
+	)
+	(junction
+		(at 73.66 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e913e2f4-e675-4dd7-a18b-d7b5485931cd")
+	)
+	(junction
+		(at 97.79 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fce56d89-016b-44a3-a45a-2bffe23bbd7a")
+	)
+	(no_connect
+		(at 267.97 142.24)
+		(uuid "7f168985-bd4f-4320-a016-a3224bcf5271")
+	)
+	(wire
+		(pts
+			(xy 219.71 116.84) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004d4013-d8c0-4ec0-9ae0-fb4604d45049")
+	)
+	(wire
+		(pts
+			(xy 97.79 113.03) (xy 97.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01014e7d-2c96-459c-9fb7-5643111a1d14")
+	)
+	(wire
+		(pts
+			(xy 226.06 87.63) (xy 251.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c1b620-3f4b-422a-8023-035f2657d77a")
+	)
+	(wire
+		(pts
+			(xy 269.24 116.84) (xy 269.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030faa9a-9c24-4a22-a370-4971c8a984ab")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048ab591-e7b0-49d9-ab4b-b39477cef844")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 91.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051016e5-bd57-49e5-aa77-881c0ccdcb86")
+	)
+	(wire
+		(pts
+			(xy 199.39 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06124dbe-911b-49ec-8506-ad857b287fee")
+	)
+	(wire
+		(pts
+			(xy 219.71 86.36) (xy 217.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06746848-d6ee-4c3a-90be-5f9a13ea56e3")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 193.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094eed07-152a-44c7-bc5c-2e63de92bc6e")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2f3d30-0ada-47d0-aacd-38ad7c57f016")
+	)
+	(wire
+		(pts
+			(xy 69.85 148.59) (xy 66.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db34028-234e-41e4-9651-ad8210df5570")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 127 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfc150c-ef7d-498c-a8f9-6b2de5a97e80")
+	)
+	(wire
+		(pts
+			(xy 19.05 142.24) (xy 19.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e05faaf-4bf7-45e6-a4b5-e05b6cceda7e")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea0ddb1-9514-4ab3-ad72-5bd16a921988")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edc073e-ec28-408d-9437-656f321702fe")
+	)
+	(wire
+		(pts
+			(xy 66.04 148.59) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c8c1c0-fd31-4a69-a849-e8c6552792dc")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.03) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17761dc2-254f-4c80-b0f0-612201a69d40")
+	)
+	(wire
+		(pts
+			(xy 271.78 116.84) (xy 269.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b91ddc8-ddb5-4ee8-a9b8-c8bf00820dfd")
+	)
+	(wire
+		(pts
+			(xy 67.31 116.84) (xy 67.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc058ac-0760-4f28-adde-d86da90dc5b6")
+	)
+	(wire
+		(pts
+			(xy 20.32 99.06) (xy 279.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2413bc-cda7-4b14-a196-3479b5b00c9c")
+	)
+	(wire
+		(pts
+			(xy 48.26 152.4) (xy 73.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f283d48-c57f-48c4-ae00-ae7c961e65f9")
+	)
+	(wire
+		(pts
+			(xy 226.06 119.38) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fb5341-f234-4a46-a956-b58c3216cf69")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27301388-c50c-4fc4-b001-71fb1c56f0f7")
+	)
+	(wire
+		(pts
+			(xy 173.99 144.78) (xy 173.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d2a26b-e12d-46b3-9a28-4ddb5d932174")
+	)
+	(wire
+		(pts
+			(xy 148.59 152.4) (xy 173.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2829ed1d-69d3-4581-81d1-e185062fbe7c")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 41.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2981e90b-e58a-468a-b194-cfd03769fa14")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aade9c9-323b-413a-9a14-f548608b7d3e")
+	)
+	(wire
+		(pts
+			(xy 199.39 113.03) (xy 199.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba6a236-33d2-4cd2-b45d-540d594605dc")
+	)
+	(wire
+		(pts
+			(xy 40.64 20.32) (xy 38.1 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c52284c-2a20-46f9-b2c4-9a20599194b4")
+	)
+	(wire
+		(pts
+			(xy 175.26 87.63) (xy 199.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7e0e8d-a74b-4dc9-9047-072591b20124")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.59) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e06d74a-1241-4a23-a3f1-a5383829d2c4")
+	)
+	(wire
+		(pts
+			(xy 30.48 34.29) (xy 33.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3148a9-fbae-4d89-b0d5-841e4f687622")
+	)
+	(wire
+		(pts
+			(xy 199.39 144.78) (xy 199.39 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec2414b-ed51-4c73-9c50-f91bfe8f9560")
+	)
+	(wire
+		(pts
+			(xy 118.11 41.91) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312b9a2f-533f-492f-abec-e4fe477cce92")
+	)
+	(wire
+		(pts
+			(xy 115.57 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328ac99b-4b56-4682-8813-3f6fe1773f3f")
+	)
+	(wire
+		(pts
+			(xy 91.44 142.24) (xy 97.79 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375fab9b-690b-4976-b1b0-fdf17afcd160")
+	)
+	(wire
+		(pts
+			(xy 49.53 113.03) (xy 49.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cca703-51bd-40ce-9c03-79734e42cfa5")
+	)
+	(wire
+		(pts
+			(xy 49.53 87.63) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abf2748-0368-4638-aa4d-ee9bf7d28304")
+	)
+	(wire
+		(pts
+			(xy 24.13 119.38) (xy 24.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c128f08-61b5-4ebc-99ae-c9b1e4794f6c")
+	)
+	(wire
+		(pts
+			(xy 243.84 116.84) (xy 243.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc8e2c2-fedf-4db1-bd40-cf4fe0533211")
+	)
+	(wire
+		(pts
+			(xy 144.78 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf71808-bcae-460a-83f3-ce5c01178722")
+	)
+	(wire
+		(pts
+			(xy 118.11 148.59) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e92eb1d-60d5-4c54-8679-f5eaf244b886")
+	)
+	(wire
+		(pts
+			(xy 20.32 110.49) (xy 24.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4099f723-547b-4e11-a80b-9bce837baf6d")
+	)
+	(wire
+		(pts
+			(xy 217.17 80.01) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421977b3-74ad-4ddd-8aa6-02d3a60c0481")
+	)
+	(wire
+		(pts
+			(xy 142.24 142.24) (xy 148.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42792fc6-6287-43db-92e2-11d22c28000c")
+	)
+	(wire
+		(pts
+			(xy 24.13 152.4) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ce1a3a-4c3d-4476-8eea-ed1dc790df1a")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441b6695-8e29-4c27-8009-d531ac33ac0c")
+	)
+	(wire
+		(pts
+			(xy 44.45 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445bb6e9-b723-4aaa-be1a-c1f191ba334f")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449fae9a-0661-4bed-adcc-dcdbab410f9a")
+	)
+	(wire
+		(pts
+			(xy 195.58 116.84) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f203c4-749a-4938-ad29-9a6280b92ea7")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48239a73-27fd-41d6-83de-39d645ebbc03")
+	)
+	(wire
+		(pts
+			(xy 44.45 148.59) (xy 41.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48880763-83fe-4de4-a058-41a63cd73ef5")
+	)
+	(wire
+		(pts
+			(xy 38.1 20.32) (xy 38.1 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c2193e-0414-462d-8d3c-2aae5d9c09c9")
+	)
+	(wire
+		(pts
+			(xy 73.66 152.4) (xy 97.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49005728-be15-49db-a789-d2d02db8e185")
+	)
+	(wire
+		(pts
+			(xy 115.57 142.24) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c47de13-7f04-4089-8612-0217b8e25a1e")
+	)
+	(wire
+		(pts
+			(xy 226.06 152.4) (xy 250.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbd424c-d567-4f3f-9715-8a42a746f1c9")
+	)
+	(wire
+		(pts
+			(xy 279.4 99.06) (xy 279.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcc4a93-d5c3-4a90-bb57-466e44007194")
+	)
+	(wire
+		(pts
+			(xy 118.11 43.18) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5017d147-e1fe-4d5a-af99-fbdff1805c7f")
+	)
+	(wire
+		(pts
+			(xy 20.32 99.06) (xy 20.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53415c0f-3647-4d8a-bd60-42a8d843ae33")
+	)
+	(wire
+		(pts
+			(xy 191.77 142.24) (xy 199.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5418d0af-d080-424c-9256-355bfe52d769")
+	)
+	(wire
+		(pts
+			(xy 20.32 74.93) (xy 20.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5518d63a-a396-4694-9a1d-93803476506e")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55742747-7f34-427a-8ebb-144174554ff7")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56515789-09e8-4708-b76c-8c3176bc945d")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d812a5-5ef9-45df-a5eb-7da86b6f45d2")
+	)
+	(wire
+		(pts
+			(xy 69.85 86.36) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b79ad28-4311-493e-9a8f-bc5ff7f8b651")
+	)
+	(wire
+		(pts
+			(xy 97.79 82.55) (xy 97.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1a04a0-90c5-4cdf-8dbb-8f52adbbae32")
+	)
+	(wire
+		(pts
+			(xy 219.71 148.59) (xy 217.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5573de-eb70-46ba-a17b-a14f15cdd7da")
+	)
+	(wire
+		(pts
+			(xy 191.77 148.59) (xy 191.77 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e82f0a9-f6c1-47e4-b5a5-6154534f273f")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe02d83-a8c0-4db4-a1eb-d56a9cba9118")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607c09e9-1d64-449f-a15e-add078b2895e")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 148.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6141134a-1663-49a4-a8a8-725df8551ca3")
+	)
+	(wire
+		(pts
+			(xy 124.46 152.4) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62633955-e374-428b-b169-3e81c28a6b4f")
+	)
+	(wire
+		(pts
+			(xy 97.79 144.78) (xy 97.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629e8131-d5b8-4ddf-b332-79b3936054f1")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 243.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f6fa71-0318-42bd-855d-da9d8604eb15")
+	)
+	(wire
+		(pts
+			(xy 217.17 142.24) (xy 226.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b5937f-0fe7-479f-9178-ff67b8ff5356")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 148.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d566c2-662d-4380-bd81-5ad36e5c936c")
+	)
+	(wire
+		(pts
+			(xy 66.04 142.24) (xy 73.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688224a5-e929-43e7-90cb-1ea79552954a")
+	)
+	(wire
+		(pts
+			(xy 24.13 119.38) (xy 49.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bed38fb-450f-44e4-9bbf-0ad3c75536be")
+	)
+	(wire
+		(pts
+			(xy 243.84 110.49) (xy 251.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf252b4-488c-495b-b40c-6f5e3c85eac4")
+	)
+	(wire
+		(pts
+			(xy 166.37 148.59) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd60af8-9f19-409d-8f57-7cdac2c250af")
+	)
+	(wire
+		(pts
+			(xy 127 30.48) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7425869d-cfd1-46f9-9b6c-9c51d286a6c0")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7588d7e7-19b1-4e1a-9499-04f123412fec")
+	)
+	(wire
+		(pts
+			(xy 20.32 80.01) (xy 24.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e19513-86be-484d-99bc-4890e15c2ca3")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77531af7-4656-4de0-b776-348169c5a251")
+	)
+	(wire
+		(pts
+			(xy 217.17 148.59) (xy 217.17 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78262b4c-7d3f-41a6-8adc-437340543c3a")
+	)
+	(wire
+		(pts
+			(xy 38.1 29.21) (xy 45.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789feaa4-03d1-4bad-b148-837fed945cad")
+	)
+	(wire
+		(pts
+			(xy 97.79 119.38) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3fd8d9-564b-4e1f-943b-019160d84fcc")
+	)
+	(wire
+		(pts
+			(xy 124.46 144.78) (xy 124.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c13014a-a2a9-4f1b-bf72-df4e38367d05")
+	)
+	(wire
+		(pts
+			(xy 93.98 148.59) (xy 91.44 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c19410b-92a9-4ec7-b13f-83e075d6cbca")
+	)
+	(wire
+		(pts
+			(xy 226.06 82.55) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7919a6-cab3-480b-894d-b6de1a16e8c4")
+	)
+	(wire
+		(pts
+			(xy 251.46 119.38) (xy 251.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ceb9a02-cb31-4275-b9c5-8552f25229ab")
+	)
+	(wire
+		(pts
+			(xy 41.91 142.24) (xy 48.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4e8ea3-0a6b-4db1-9d7c-792a47108bd3")
+	)
+	(wire
+		(pts
+			(xy 144.78 148.59) (xy 142.24 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9789dd-c4bf-4954-9d1a-ebcc40c7edc1")
+	)
+	(wire
+		(pts
+			(xy 19.05 142.24) (xy 24.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e97e120-c852-4b5d-a18b-70a2cf439a76")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9c0c32-e241-4d0b-88cc-4aca599ab8dc")
+	)
+	(wire
+		(pts
+			(xy 44.45 86.36) (xy 41.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef844f3-5bfb-4d03-adff-1921966098e1")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8071899c-df25-4518-86c0-27290ba5f91b")
+	)
+	(wire
+		(pts
+			(xy 175.26 113.03) (xy 175.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a3260e-cbf8-45d9-8e3d-0a7b0ecb4efe")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 97.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cd7cf0-4527-4a52-80dd-961e99a776ff")
+	)
+	(wire
+		(pts
+			(xy 24.13 87.63) (xy 24.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870867ec-a19d-4b64-99ca-a1ce38408f71")
+	)
+	(wire
+		(pts
+			(xy 271.78 86.36) (xy 269.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87285597-555f-43cc-b250-f0a8e4f888d6")
+	)
+	(wire
+		(pts
+			(xy 199.39 152.4) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cc8953-5bf3-4cbd-9177-7dcd0a06d4b5")
+	)
+	(wire
+		(pts
+			(xy 49.53 119.38) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ed32dd-42e5-4255-883d-14029eda2950")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 166.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f907f40-d13e-40f2-868e-91347fc94d0d")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93bf0f45-6676-42c0-8f9c-34cd29f80a06")
+	)
+	(wire
+		(pts
+			(xy 73.66 144.78) (xy 73.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942cf68c-dc18-479a-b829-bf9278a15552")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9757487e-155c-4e38-ab9d-94c1361eeb9d")
+	)
+	(wire
+		(pts
+			(xy 243.84 80.01) (xy 251.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ae059a-d705-4710-b85c-c875b63f7c2d")
+	)
+	(wire
+		(pts
+			(xy 41.91 80.01) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b8dee1-7f8c-467d-9141-d5be0424c430")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4d573a-007e-4b0b-83c8-45f5be882f9e")
+	)
+	(wire
+		(pts
+			(xy 243.84 148.59) (xy 243.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd8f085-ee96-4cb6-8f2a-93db0d4f9cd6")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.78) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9cbca6-e24e-4a08-a7f1-f76268916b88")
+	)
+	(wire
+		(pts
+			(xy 48.26 144.78) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7a66d9-8d2a-4018-b1a1-b1ea1f442168")
+	)
+	(wire
+		(pts
+			(xy 173.99 152.4) (xy 199.39 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9bd83a-d2da-48d7-96ba-adcc57a51f97")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 118.11 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2670dfb-36a8-46e6-81b9-d0e7fb00b408")
+	)
+	(wire
+		(pts
+			(xy 280.67 110.49) (xy 269.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a293e5db-7376-4074-b5d2-ab6d9e7475c7")
+	)
+	(wire
+		(pts
+			(xy 269.24 86.36) (xy 269.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69b650a-de6f-44d8-968a-0302b667d09e")
+	)
+	(wire
+		(pts
+			(xy 217.17 116.84) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dca061-8724-4a03-b282-754a6bc71d9f")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0e499b-45a6-44fc-8ab0-d83f2bcf8258")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 41.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6c172b-5711-4ac6-8295-c1a1cc037a7c")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed4f168-8212-4204-8f99-0f51d8b031f2")
+	)
+	(wire
+		(pts
+			(xy 97.79 152.4) (xy 124.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af380a72-2947-4ecb-8fa1-8ebcbaf3480e")
+	)
+	(wire
+		(pts
+			(xy 115.57 116.84) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe153ee-4f6a-4a15-b318-bd9c14a0f698")
+	)
+	(wire
+		(pts
+			(xy 280.67 129.54) (xy 280.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f5979d-5c36-42a7-85fd-f8c567384caf")
+	)
+	(wire
+		(pts
+			(xy 69.85 116.84) (xy 67.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e76f67-15c1-40d0-9829-e98fa6700dea")
+	)
+	(wire
+		(pts
+			(xy 168.91 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9cf921-043c-42cc-bba8-16df0d2ed568")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 193.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4eb3b8-1eed-4aab-a1df-0a35ee530992")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bf4e52-5042-4519-bb6e-4009fddebfc0")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37fd54d-ff3d-41ec-b60e-f60e7c51d406")
+	)
+	(wire
+		(pts
+			(xy 217.17 110.49) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46953a7-b005-4391-ac74-40e161b8610c")
+	)
+	(wire
+		(pts
+			(xy 148.59 144.78) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c540e0ca-8bd7-4c13-a1cf-5bf61b23a739")
+	)
+	(wire
+		(pts
+			(xy 195.58 148.59) (xy 191.77 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c569734f-b71c-40b3-9636-d4ba3f7441f6")
+	)
+	(wire
+		(pts
+			(xy 118.11 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59eaef7-3cf0-4082-8e2f-f6b77b34b614")
+	)
+	(wire
+		(pts
+			(xy 24.13 87.63) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b0c6e9-1a60-458a-ab5f-e1f9e8f1a652")
+	)
+	(wire
+		(pts
+			(xy 246.38 148.59) (xy 243.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e5826f-84c7-46be-be26-a340bafa486d")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 91.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8f8bb1-ae1f-461e-a5e3-2e079c2e2bf0")
+	)
+	(wire
+		(pts
+			(xy 199.39 82.55) (xy 199.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc34b9a-3e24-4c32-8520-00937b7078c6")
+	)
+	(wire
+		(pts
+			(xy 41.91 110.49) (xy 49.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea2e8b6-3545-4bfe-9a58-731c52583c0a")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf22377c-a009-47ff-aa1a-84cda088cefe")
+	)
+	(wire
+		(pts
+			(xy 20.32 63.5) (xy 20.32 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1703015-9fe9-400c-a49f-3405e4a36670")
+	)
+	(wire
+		(pts
+			(xy 41.91 148.59) (xy 41.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17b2b6a-32df-4bf4-a0d2-7ce1f24dc746")
+	)
+	(wire
+		(pts
+			(xy 217.17 86.36) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e4a6f6-8506-43a4-9c90-a74b6be7d586")
+	)
+	(wire
+		(pts
+			(xy 246.38 86.36) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31fc9be-969f-4df0-a034-b5b11637c1cc")
+	)
+	(wire
+		(pts
+			(xy 166.37 80.01) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d487f5e3-1b72-4bda-8d3b-6a3e1ee680a1")
+	)
+	(wire
+		(pts
+			(xy 168.91 148.59) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c1278b-8ecd-45ad-a752-2bf92f2ddd5c")
+	)
+	(wire
+		(pts
+			(xy 271.78 148.59) (xy 267.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82a7370-e390-45c3-ad16-6ca1316ae754")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 199.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da286dc6-8b15-4182-8f42-59ce178a4b1c")
+	)
+	(wire
+		(pts
+			(xy 91.44 148.59) (xy 91.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2c3718-0d08-4daa-8e2a-683931e369c9")
+	)
+	(wire
+		(pts
+			(xy 267.97 148.59) (xy 267.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9c5512-7193-4c02-8bb6-8ff79f82d710")
+	)
+	(wire
+		(pts
+			(xy 24.13 144.78) (xy 24.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca3e587-8842-4196-a8eb-cf4e6011115e")
+	)
+	(wire
+		(pts
+			(xy 91.44 110.49) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f2af9a-3e65-426d-bb6b-5bc04c1a9025")
+	)
+	(wire
+		(pts
+			(xy 166.37 142.24) (xy 173.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ecb3ca-3346-4245-9fb1-d9e08247c5b2")
+	)
+	(wire
+		(pts
+			(xy 166.37 86.36) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5525007-2dd6-4877-a064-5e6fe66428bc")
+	)
+	(wire
+		(pts
+			(xy 250.19 144.78) (xy 250.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5df6869-1a9f-46af-af91-cf9a23fb508c")
+	)
+	(wire
+		(pts
+			(xy 193.04 110.49) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6559054-a82b-4f22-9a02-0268d8467f8d")
+	)
+	(wire
+		(pts
+			(xy 19.05 129.54) (xy 280.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e688a6ab-f474-44c3-90a3-f09734662e5a")
+	)
+	(wire
+		(pts
+			(xy 148.59 119.38) (xy 175.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b3ddde-1814-4670-81fa-b7adc215517c")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1a148b-124e-4023-b75c-b2e9aa09029e")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 97.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1ac925-7ecc-4db2-aec5-bb348ae0a35c")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fa2c8e-ba73-458b-ac5e-be0893565a06")
+	)
+	(wire
+		(pts
+			(xy 243.84 142.24) (xy 250.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36762d7-b3f1-4197-926a-17dc74f72a76")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55dbce9-e981-461f-9057-5b3d8179eef0")
+	)
+	(wire
+		(pts
+			(xy 125.73 34.29) (xy 130.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89de60f-d2b1-446a-b0e4-3fbe61f9ead5")
+	)
+	(wire
+		(pts
+			(xy 279.4 80.01) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa61bc5e-04bd-4abe-bd6b-bb442c247be0")
+	)
+	(wire
+		(pts
+			(xy 226.06 113.03) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb971de6-2668-4761-b729-14f178f91838")
+	)
+	(wire
+		(pts
+			(xy 166.37 116.84) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd38893-1ae1-4639-b1df-951e38375d9d")
+	)
+	(wire
+		(pts
+			(xy 67.31 110.49) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feeb2064-7ae4-478f-989c-50089bc7431f")
+	)
+	(wire
+		(pts
+			(xy 251.46 87.63) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7cc1f2-e5d5-4c9e-9f3d-ff5d643b461b")
+	)
+	(global_label "+5V_LED_DATA"
+		(shape output)
+		(at 130.81 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34e48f06-e42d-4c4f-9d88-fe112a7c9184")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.4628 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_TOGGLE"
+		(shape output)
+		(at 30.48 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "557a2ec4-b9d6-463b-8ea5-1476c457e4a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_VCC"
+		(shape input)
+		(at 118.11 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "919750f1-7fc5-48e2-824c-e9629d469159")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4486 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_LED_DATA"
+		(shape input)
+		(at 110.49 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab11b69a-c4d9-438e-bea5-3c364d4c9a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6277 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_LED_DATA"
+		(shape input)
+		(at 20.32 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c831df90-6325-4841-a440-b79ba19deb3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.9728 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_VCC"
+		(shape input)
+		(at 40.64 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e810def4-8236-4958-8c37-44609569f9b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.0919 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 57.15 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "002123ab-3bf1-4677-86f6-5504da9a0956")
+		(property "Reference" "LED22"
+			(at 57.15 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 57.15 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 57.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a4cfa70-5b53-4b86-a3d9-e2c0936d44b8")
+		)
+		(pin "1"
+			(uuid "4484afd3-cde1-4d14-aa3e-0b669e5c2fee")
+		)
+		(pin "4"
+			(uuid "3ffd5b82-a18d-4bbc-a249-c33437566303")
+		)
+		(pin "2"
+			(uuid "e9081956-7e71-4a9a-9dbe-8ca7aa25a81d")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 208.28 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036e1424-3780-433e-b7d8-2a872b5af95f")
+		(property "Reference" "LED18"
+			(at 208.28 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 208.28 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 208.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17b40bad-b495-4f4a-bcaa-f9c7c0b2ad61")
+		)
+		(pin "1"
+			(uuid "e6eccc46-d816-43cb-9a32-ab7be6543c61")
+		)
+		(pin "4"
+			(uuid "a6e66848-e93b-49eb-9ee1-73d099a65161")
+		)
+		(pin "2"
+			(uuid "1d0b4fc1-d764-4281-8004-96b2bfb10ffa")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 45.72 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "045cd87d-be50-4073-b7ce-5f11c2125ee4")
+		(property "Reference" "#FLG01"
+			(at 47.625 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.038 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ad576e-81bf-4c20-a8aa-7b6eb8f764f0")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 208.28 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "055d7c29-b82e-4e43-8ed2-25aa9c548189")
+		(property "Reference" "LED28"
+			(at 208.28 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 208.28 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 208.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c23fb283-d1b3-411c-8438-9e3a60c13d1c")
+		)
+		(pin "1"
+			(uuid "ce49389f-8b4f-41dd-821a-dd6525ea14ab")
+		)
+		(pin "4"
+			(uuid "93145d23-8959-4400-99b4-674d2fbddb5d")
+		)
+		(pin "2"
+			(uuid "8c289177-fef7-490d-9573-387546f40501")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LV1T34DCK")
+		(at 118.11 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "072890f8-96fd-441a-b94e-013b9d510cef")
+		(property "Reference" "U5"
+			(at 114.046 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LV1T34DCK"
+			(at 108.458 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40062d9-dca8-471d-abf1-0365fe02a466")
+		)
+		(pin "2"
+			(uuid "207ed0e9-b3db-441a-8aa6-7f5b316cb4e4")
+		)
+		(pin "5"
+			(uuid "bd399bcf-94fc-4230-a671-e71d1f84f294")
+		)
+		(pin "4"
+			(uuid "d05a712b-0519-4030-8fa4-88c48e6dedd6")
+		)
+		(pin "3"
+			(uuid "9897265c-7365-47cd-83fa-f78a515bea18")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 246.38 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b8cbdf5-0b83-499d-93b3-30e0dc7dad39")
+		(property "Reference" "#PWR019"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 246.634 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d87129b-1412-42d8-bcb1-b7ad79291b3c")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 219.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cc64895-53e0-47eb-9220-11e10c758e5a")
+		(property "Reference" "#PWR08"
+			(at 219.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 219.964 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d916c3-b364-4076-b5aa-311f364e7cc6")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 144.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15e255f4-d1a0-489d-bdb2-5aa0e68a43ee")
+		(property "Reference" "#PWR05"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 145.034 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0d5b96f-ad1f-4360-b998-5d0792487f6e")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 133.35 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed3546e-abdb-40fb-8ddf-5d4b0a36b137")
+		(property "Reference" "LED15"
+			(at 133.35 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 133.35 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 133.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34287321-2d4e-4f90-ab58-e055fb6ee59f")
+		)
+		(pin "3"
+			(uuid "17ce1ffb-f4d9-4a1e-9b63-528018290090")
+		)
+		(pin "4"
+			(uuid "88d33103-9ef7-4195-9719-d1fc8af0a7a7")
+		)
+		(pin "2"
+			(uuid "7eb4f109-8cfb-4f53-b818-427295669252")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 219.71 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fd63a34-58f7-4c48-aa23-b2d4a4e15bc4")
+		(property "Reference" "#PWR028"
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 219.964 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d15a8f5-c190-4968-a9c7-f0b0104fdef0")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200332d5-0b5c-4b6f-9270-886e4362ab7b")
+		(property "Reference" "#PWR039"
+			(at 250.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "573241a4-e97a-4d7e-a6b7-f81454e9b7fc")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22be3cb2-e5b6-4ba5-a338-6b1e43db27fd")
+		(property "Reference" "#PWR041"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fbc7f51-3abd-45fb-ade5-bee54cc1ab06")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258112ce-cfab-43f1-b6cd-ab051d68c4b3")
+		(property "Reference" "#PWR032"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ff75000-0f05-4594-8b92-b7368431f46f")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 271.78 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a4cb1ca-9d20-4567-9803-33771aceaf68")
+		(property "Reference" "#PWR020"
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 272.034 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ca2dcd8-a870-49ec-9830-03dbb4f4a71b")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 133.35 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b4014b1-8a4b-44cb-844b-34b3e2de1b8e")
+		(property "Reference" "LED25"
+			(at 133.35 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 133.35 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 133.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e35d9c51-83ba-44c1-b93f-ad195cc1a24a")
+		)
+		(pin "3"
+			(uuid "37972d19-3148-432b-a038-89cdea215200")
+		)
+		(pin "4"
+			(uuid "c5f62463-defa-4a8f-b098-29c7eb38a95f")
+		)
+		(pin "2"
+			(uuid "f586dee9-b85a-413c-b723-5cb8532743ec")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 93.98 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3337da4d-801f-4dae-ae5d-72f085e09594")
+		(property "Reference" "#PWR023"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 94.234 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f05a27b0-f351-4ee6-bb7d-a4123e30e917")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33f28544-8948-4585-92ec-4c136a96eb88")
+		(property "Reference" "#PWR022"
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 70.104 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecdc4445-e56e-4072-b8b4-814ca680a1e6")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 82.55 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3937d726-4ced-4105-b976-33d3460f83a5")
+		(property "Reference" "LED3"
+			(at 82.55 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 82.55 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6174e4c5-ea37-414e-8ec1-9fe03d4de5d3")
+		)
+		(pin "3"
+			(uuid "97a16601-2419-42c2-baff-1c7b35660307")
+		)
+		(pin "4"
+			(uuid "932d901a-967d-436c-bd6d-18e58e767ba6")
+		)
+		(pin "2"
+			(uuid "27245255-aeba-4b1d-a3ce-c58ac3653bc9")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e432954-13f9-4906-87d4-05262f7d5830")
+		(property "Reference" "#PWR048"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c09b9761-14db-4e12-986f-3abe2bc7e405")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 195.58 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "406e0da0-7299-423a-9b6d-3e0ba9a0ed92")
+		(property "Reference" "#PWR017"
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 195.834 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97209609-e407-4d0e-bc5e-d2c7d1f3752f")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 219.71 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "459bec16-88fc-4d2a-baf6-3c0c2e9d9db6")
+		(property "Reference" "#PWR018"
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 219.964 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9be18b17-08e1-4dfb-b529-24b42b05a8a9")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 45.72 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46a501c6-420f-4174-b42c-428416b26a74")
+		(property "Reference" "#PWR040"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 45.974 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee24ded8-4b8a-4368-a7d6-31345c99d037")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 58.42 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b96985d-e577-4809-a654-e2efb28ff874")
+		(property "Reference" "LED12"
+			(at 58.42 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 58.42 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 58.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0dfb365-a194-4d4f-9b77-3adbc49059ea")
+		)
+		(pin "1"
+			(uuid "e892481c-bc5e-4a1c-a129-41e53128ac74")
+		)
+		(pin "4"
+			(uuid "01576b88-88da-45fc-8e2e-7d03f846373d")
+		)
+		(pin "2"
+			(uuid "cc768bde-748f-4886-b8b5-a82a6a7a68f8")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 195.58 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d6c98a3-2cb4-48d1-a572-bd12836c0878")
+		(property "Reference" "#PWR027"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 195.834 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c1217dd-66cc-46dd-b38d-f59d67dc459d")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 246.38 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d750adf-6ebe-41a1-a5ed-5ee4c0761fd6")
+		(property "Reference" "#PWR029"
+			(at 246.38 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 246.634 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cab2c05-cb66-404d-9e24-c35ffd0c7dc2")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe42be7-25f8-43bf-9a04-e0519efdaeb9")
+		(property "Reference" "#PWR037"
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2841ccb-5e3c-4f83-9e53-d6ba22507fcc")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 234.95 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a2a452-9122-498d-949b-239042cc8384")
+		(property "Reference" "LED19"
+			(at 234.95 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 234.95 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 234.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 234.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00836a34-9f72-4788-aaf9-84ee9e75d748")
+		)
+		(pin "3"
+			(uuid "456cd6ef-4346-4c23-88f7-00f2452ac9cf")
+		)
+		(pin "4"
+			(uuid "2a8677f4-3549-4d6e-8208-5cd72d16163f")
+		)
+		(pin "2"
+			(uuid "b36b055e-7fbf-4f77-9b0b-a2d34b8368a7")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 106.68 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561181ec-4a97-41be-b82a-62b458e3c1a3")
+		(property "Reference" "LED24"
+			(at 106.68 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 106.68 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5235e09a-58e0-4db0-8c29-00cb1b7f0a9b")
+		)
+		(pin "1"
+			(uuid "5d6b6bf6-b607-47f8-a9d6-f4971d6a1fdd")
+		)
+		(pin "4"
+			(uuid "f6a86846-8ffc-4c21-b86a-085474662c07")
+		)
+		(pin "2"
+			(uuid "f9d6858f-21d8-4b6b-8fac-a29f751ec776")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 271.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f9ac0a-0c7f-4ec3-bd16-913e23a27176")
+		(property "Reference" "#PWR010"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 272.034 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a48a55a9-11df-4f2a-9305-d5152de37fd9")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "603f108a-107f-4e71-8d2c-e05f8ebea012")
+		(property "Reference" "#PWR021"
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 44.704 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c57e9f5b-c39d-4eff-a9fc-35bf7c9db5d4")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 246.38 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64d4d6a8-14ae-49c0-96c1-732645b337f5")
+		(property "Reference" "#PWR09"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 246.634 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 246.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9ea303-2235-4f37-ad21-76a04fd4d7fc")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 184.15 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659ea381-0a0e-477a-92ec-da121f2c00de")
+		(property "Reference" "LED17"
+			(at 184.15 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 184.15 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 184.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64110a94-14e5-42b0-a393-26a02b5ae107")
+		)
+		(pin "3"
+			(uuid "b22f2f79-ca10-49e7-8c2a-2c0f6762f307")
+		)
+		(pin "4"
+			(uuid "1e30fb9b-9e30-4b66-baa7-76dfce17ac5d")
+		)
+		(pin "2"
+			(uuid "f63edc7c-e244-45cf-acf2-d523d66a0359")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 259.08 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a66031-406e-49ce-91ea-71c35acd5741")
+		(property "Reference" "LED30"
+			(at 259.08 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 259.08 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 259.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 259.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c6b82422-948b-4f2f-a4e1-c98e6462a92b")
+		)
+		(pin "1"
+			(uuid "4aedd028-f379-4fc9-8ed2-41f95f7a9818")
+		)
+		(pin "4"
+			(uuid "b475cba3-ae32-427e-b010-1b6acbd718c4")
+		)
+		(pin "2"
+			(uuid "30b69c25-4bac-412e-bd2c-926b60dea71f")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "685f2bab-91dd-4fd4-bdd5-6c874429574d")
+		(property "Reference" "R2"
+			(at 39.878 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2"
+			(at 39.878 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.116 25.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa7fc1b3-753e-4308-9ab5-783a5ceb5df9")
+		)
+		(pin "2"
+			(uuid "5ea8db13-e719-4492-8995-ebb5d61d267b")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 82.55 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f4d6dea-c545-4ec0-a4b8-376802afe3fd")
+		(property "Reference" "LED13"
+			(at 82.55 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 82.55 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 82.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69069140-ea2c-48cb-ac33-86b9d11dd8bb")
+		)
+		(pin "3"
+			(uuid "5bccaff9-defb-4de5-add0-26388e977e84")
+		)
+		(pin "4"
+			(uuid "43c3478e-9c64-4bbf-b511-ecea0adb3dba")
+		)
+		(pin "2"
+			(uuid "f8eb552e-5560-42a5-8a8d-b135e2c22e9a")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 157.48 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffeac7e-3e1c-4782-8d6b-c5368b08bbb7")
+		(property "Reference" "LED6"
+			(at 157.48 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 157.48 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5bafccd4-b0e7-40bc-a054-8209e4affc20")
+		)
+		(pin "1"
+			(uuid "b76b8ede-d144-47a7-86cf-8119d36dde3d")
+		)
+		(pin "4"
+			(uuid "257a064d-a3e7-4a03-9e5a-5dc210463f53")
+		)
+		(pin "2"
+			(uuid "27afcf19-c4c7-4a01-9226-040cf03f0d40")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "711aa6e2-a883-49e5-b765-4ec5bc331716")
+		(property "Reference" "#PWR02"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 70.104 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed861020-ee0e-49b3-9fbe-bef4f0eb94c4")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 271.78 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71de9f61-6b7b-4262-b191-0ec85395e379")
+		(property "Reference" "#PWR030"
+			(at 271.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 272.034 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccf50323-9db0-40d6-abee-f2c911acf621")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "726a03b6-62e9-48e3-bd46-b6e2d544faa6")
+		(property "Reference" "#PWR011"
+			(at 44.45 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 44.704 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc1c66df-8903-4670-90f5-e78efbae5393")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 82.55 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7715cd74-b1dc-42c3-aff8-2f27dd3900ea")
+		(property "Reference" "LED23"
+			(at 82.55 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 82.55 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 82.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "593a2365-b5d9-49fc-a12c-64d8f4fabdef")
+		)
+		(pin "3"
+			(uuid "bdcd018d-2d8d-4fe5-b224-b7a5927911be")
+		)
+		(pin "4"
+			(uuid "96781076-af05-40ca-af29-c213f113682b")
+		)
+		(pin "2"
+			(uuid "f7b5137c-e4d1-4b70-b085-9384f0d6fd4f")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b23e780-823a-4ef6-af2a-872d344dee49")
+		(property "Reference" "#PWR033"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d329d9-70da-430a-9d12-a67b2dd7bf7c")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 58.42 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e81fd37-db2a-4c75-b023-7e74c1796e9b")
+		(property "Reference" "LED2"
+			(at 58.42 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 58.42 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cd66f886-6eba-4bb3-b6ad-f733538fc34e")
+		)
+		(pin "1"
+			(uuid "1e424213-8133-442e-8ddc-91401de97e3f")
+		)
+		(pin "4"
+			(uuid "cfb56bb8-cdc2-40e9-a99c-3fc933676794")
+		)
+		(pin "2"
+			(uuid "586956e0-edde-4d1c-bb49-bf3c90d84f7a")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 157.48 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8067cfb9-73d8-43b7-8266-7edd014ece96")
+		(property "Reference" "LED16"
+			(at 157.48 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 157.48 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6945d85c-e9db-41f1-af9b-f5ed8a5f7f6f")
+		)
+		(pin "1"
+			(uuid "313ddd7a-7396-410c-85aa-1c12f1bc2805")
+		)
+		(pin "4"
+			(uuid "92e3acca-2455-4849-a9d5-817d0dececc1")
+		)
+		(pin "2"
+			(uuid "a1c57baf-114b-4d64-b291-dd037a03151e")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82c23589-72f0-4a02-bc5f-d27e6ec756bb")
+		(property "Reference" "#PWR016"
+			(at 168.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 169.164 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "248f3197-f3b6-4d53-8403-2f4c74cc399b")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 118.11 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83def953-4e13-4504-9ee7-47d87d537b52")
+		(property "Reference" "#PWR014"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 118.364 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5ae559d-80cb-4db1-a2de-4583361ada7a")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fcd600-ebdb-4da4-aac2-529aabfc5719")
+		(property "Reference" "#PWR034"
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d610ac82-9be1-41f5-b753-cc8d42bb2f44")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873f318d-c74f-4de6-a795-78cf636a753a")
+		(property "Reference" "C3"
+			(at 130.048 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 130.048 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127.9652 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "260bb233-05fb-45e0-a2bd-9e1f13d8d454")
+		)
+		(pin "1"
+			(uuid "bb17a31f-00e5-4207-8c0f-fc5b2397e41e")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 93.98 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f374544-85d4-451b-bc2e-20262a2a14f4")
+		(property "Reference" "#PWR03"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 94.234 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62dc35d4-69ac-4943-81e3-6536722cf2ee")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 195.58 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a95e69b-0a89-4e30-8382-69e0f0d23d02")
+		(property "Reference" "#PWR07"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 195.834 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30323adf-2474-496d-a065-65ca3dd8d958")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ea0d60f-763c-47dc-b8e9-6dded594a820")
+		(property "Reference" "#PWR036"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b9951f8-d899-4822-8a2f-6ea766f9b36b")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a09c2891-140c-48e3-9156-68dad41eabf2")
+		(property "Reference" "#PWR031"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff582f95-279f-4577-9f4f-a248752b8957")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 260.35 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a130699f-1ebf-4306-9f09-8249d9bb8c4a")
+		(property "Reference" "LED20"
+			(at 260.35 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 260.35 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 260.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 260.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f82799ab-fb82-4864-8bbb-0ec1b533c0ed")
+		)
+		(pin "1"
+			(uuid "c671d195-8b46-4464-886f-920244818972")
+		)
+		(pin "4"
+			(uuid "8b68d24a-b31c-4229-b9ce-03d8883248f8")
+		)
+		(pin "2"
+			(uuid "510c17a2-9ba7-4ba7-b518-0b9eb7e51fd8")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 33.02 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a32c0f87-d2c9-4bb4-b561-5f2623ef3741")
+		(property "Reference" "LED21"
+			(at 33.02 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 33.02 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f5a01bd-1157-49f3-980c-53473584c000")
+		)
+		(pin "3"
+			(uuid "8984b154-0e99-43e7-bb1c-24b8f607bd43")
+		)
+		(pin "4"
+			(uuid "931e783a-c7d1-4e4b-9166-673416ff6cfc")
+		)
+		(pin "2"
+			(uuid "b82466f7-d2e7-49d9-bf4c-fe09612dcad9")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa776833-ce52-4255-8cd7-17fda37f4883")
+		(property "Reference" "#PWR035"
+			(at 148.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d1d896-9331-4bba-882f-670acce74152")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 144.78 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af530060-f577-43b5-b548-ae8fcd7263cb")
+		(property "Reference" "#PWR015"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 145.034 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da289e37-9570-49d6-b591-f56e523522b9")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 234.95 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65c1a3c-14b8-4ece-95fb-687674094b99")
+		(property "Reference" "LED29"
+			(at 234.95 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 234.95 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 234.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 234.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 234.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9692b8c1-33a2-4f3c-bfa5-643d275cea76")
+		)
+		(pin "3"
+			(uuid "407179fb-4610-4087-a3e9-56d9db9b3d9e")
+		)
+		(pin "4"
+			(uuid "7a08b0dd-8784-4a57-ba38-1406f702cb68")
+		)
+		(pin "2"
+			(uuid "22d28121-3007-40ed-a087-fcfee4fc7ccd")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b954e56a-5d5d-41c7-abe7-1eec0c0d3c42")
+		(property "Reference" "#PWR06"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 169.164 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9a400b-3693-42e4-835a-ef9694f61dc4")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 93.98 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbf7fe7e-0c9b-4c46-8885-8dd0635337d0")
+		(property "Reference" "#PWR013"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 94.234 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1d31249-5910-4033-b9e7-a2329d765316")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 118.11 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf052cd1-7cc2-4eef-9135-7511f636c292")
+		(property "Reference" "#PWR04"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 118.364 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c72711b6-4d93-4642-b4e1-ce2ceacdf8ba")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5492c39-81f2-49e3-a6c7-7f4c41775422")
+		(property "Reference" "#PWR026"
+			(at 168.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 169.164 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ad062d5-755c-4089-abb9-bd4e7ff3050d")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 106.68 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6a64f03-6eb9-4333-b20a-4ab0f3b25e42")
+		(property "Reference" "LED4"
+			(at 106.68 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 106.68 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "15a7d524-f32c-4761-b6b8-af274b63276e")
+		)
+		(pin "1"
+			(uuid "bda2ec98-e580-4ee2-b6d3-5ff0fe335e70")
+		)
+		(pin "4"
+			(uuid "af068a9e-8f35-4053-ae1e-361681607adb")
+		)
+		(pin "2"
+			(uuid "c07042ac-1643-4871-adae-a35e45143d39")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6df7488-0a05-4189-bf4d-021a545becb8")
+		(property "Reference" "#PWR038"
+			(at 148.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40eda0cc-d961-435c-bef3-9d1289ec620c")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c87331d4-3804-4b92-bb57-f8c8bfe8e7b5")
+		(property "Reference" "#PWR01"
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 44.704 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f1d296a-9aa7-47ab-beb0-0d5e31f14dc0")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 208.28 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8d1587e-9d1c-421f-b5e3-d97126784550")
+		(property "Reference" "LED8"
+			(at 208.28 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 208.28 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 208.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "96d0f49a-907e-458d-b9be-797f967ec34b")
+		)
+		(pin "1"
+			(uuid "e7b0b423-e89e-4f44-88a0-5b124572986d")
+		)
+		(pin "4"
+			(uuid "b908caf9-508a-4fa1-ba37-92a319387ecd")
+		)
+		(pin "2"
+			(uuid "7b122b71-96a4-4e19-8fb6-2eeac5f099eb")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:SI2302_C4748714")
+		(at 38.1 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99ae965-7f80-41cd-991f-59c164eb0aa5")
+		(property "Reference" "Q1"
+			(at 43.18 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2302_C4748714"
+			(at 43.18 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "syms_foots:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4748714"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "701bc291-d3c4-4967-9e8d-bdd0bbc47378")
+		)
+		(pin "1"
+			(uuid "1d1843ab-b079-462f-b715-5da9f4f139d3")
+		)
+		(pin "2"
+			(uuid "0b011ace-8f68-4e64-acaf-43c6ab0d0520")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 118.11 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc548528-d767-4f76-a3d0-5c79613ab3da")
+		(property "Reference" "#PWR024"
+			(at 118.11 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 118.364 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5accc32c-496d-43da-b3f9-d87ca6b24e47")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 33.02 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccc251da-a1b7-4b9b-9ac9-0b154107dc29")
+		(property "Reference" "LED1"
+			(at 33.02 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 33.02 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 33.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e9edeb4-4f93-439e-a3af-4fae5b82cafd")
+		)
+		(pin "3"
+			(uuid "6e1075d3-7625-48be-a649-c317733daef2")
+		)
+		(pin "4"
+			(uuid "1a095b94-ecb2-4d99-8025-20feb8afb722")
+		)
+		(pin "2"
+			(uuid "b5a59075-89fb-45b5-8aa5-fd477be7b1e3")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 144.78 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdc2276c-5319-470f-8638-b69dad8edf5d")
+		(property "Reference" "#PWR025"
+			(at 144.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 145.034 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67a8b895-741e-497d-a1e6-a8c617c563e8")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 182.88 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf904414-2fcd-4a40-a179-eeddd8ca822b")
+		(property "Reference" "LED27"
+			(at 182.88 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 182.88 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 182.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c6384a-cdcd-4b1d-830b-c3c7480caa4f")
+		)
+		(pin "3"
+			(uuid "85b19bca-c2e3-476a-abc7-41ac14ed7634")
+		)
+		(pin "4"
+			(uuid "d84314c5-11da-40dd-b08d-9a874f59f127")
+		)
+		(pin "2"
+			(uuid "7e0b8856-7c6b-4133-9e88-d4c81e42ebf5")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3061a7c-b5c5-45b7-90d7-9e38fc04ff0b")
+		(property "Reference" "#PWR012"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_M"
+			(at 70.104 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f14cb4c-123a-441c-8b54-58668de61f76")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 157.48 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a4bfdf-0554-4cd7-8279-ca9d10b7fbb6")
+		(property "Reference" "LED26"
+			(at 157.48 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 157.48 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 157.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a998a274-7a9a-49d8-808c-f69f6df49b33")
+		)
+		(pin "1"
+			(uuid "81b9ea49-26ad-44e8-b6c6-7ee0e730a884")
+		)
+		(pin "4"
+			(uuid "6c16646a-3f34-4052-90a3-d34555c11f2c")
+		)
+		(pin "2"
+			(uuid "2f2ace7a-91cd-4ce6-bf89-20be77198390")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 133.35 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6101616-35b0-40cb-ac5c-d409358878d2")
+		(property "Reference" "LED5"
+			(at 133.35 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 133.35 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1924f03d-0b34-4bed-8c12-182c88bff192")
+		)
+		(pin "3"
+			(uuid "dacd8b41-d397-4d66-a025-d29dd60631bd")
+		)
+		(pin "4"
+			(uuid "7d99d457-4a7b-4c71-92bc-3657ee415b2a")
+		)
+		(pin "2"
+			(uuid "ae7f7058-bba6-4024-b7f7-3df4c5dd5c0d")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 260.35 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5b6f88-434a-40cc-93eb-38872d817efa")
+		(property "Reference" "LED10"
+			(at 260.35 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 260.35 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 260.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "570d1549-16c9-4df1-9264-419cf5ba8ca6")
+		)
+		(pin "1"
+			(uuid "0cf3990c-eeef-4d61-b7c3-5e6234fc1027")
+		)
+		(pin "4"
+			(uuid "6269c4d8-4d06-4ad4-a08c-f39279145408")
+		)
+		(pin "2"
+			(uuid "13f82192-036d-41b2-a0e3-7a44ed879325")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 33.02 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eed4feff-9be2-4f52-9bc1-85c8793c5d4d")
+		(property "Reference" "LED11"
+			(at 33.02 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 33.02 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 33.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9400180-2d8e-451f-9d0e-e12797ec2cda")
+		)
+		(pin "3"
+			(uuid "842c9aa3-c000-464f-840d-f5b1da1743c2")
+		)
+		(pin "4"
+			(uuid "d9b0853c-6ef6-4015-9782-d1d202f23eeb")
+		)
+		(pin "2"
+			(uuid "12bd4946-fa95-4382-8a54-e652d74be361")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 234.95 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f18b9c-dd8f-480e-8ad8-68f1d393a899")
+		(property "Reference" "LED9"
+			(at 234.95 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 234.95 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 234.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 234.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5fc2734-b4fe-4318-9875-89fc797d1dae")
+		)
+		(pin "3"
+			(uuid "1ca7424e-14ea-4a48-99ac-a166434febd7")
+		)
+		(pin "4"
+			(uuid "64f032a8-23e8-4470-a75e-4e1da4e89865")
+		)
+		(pin "2"
+			(uuid "d41ccec3-3851-4ecc-ae4e-40e0fa4629a3")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 106.68 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f95b4c89-8c8b-4737-a57d-284e60e30fee")
+		(property "Reference" "LED14"
+			(at 106.68 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 106.68 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88ba6bfe-300c-491e-b5b0-78c87b2bd2ff")
+		)
+		(pin "1"
+			(uuid "646426bd-3abb-4090-9c0b-e55c745170cd")
+		)
+		(pin "4"
+			(uuid "adb36451-54e3-4d2e-959d-495ca5daba18")
+		)
+		(pin "2"
+			(uuid "ee16ef7a-478b-4544-9fe9-2d4d3cebee56")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 20.32 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdbc65e4-ec3f-4956-ae43-21b79a949202")
+		(property "Reference" "R1"
+			(at 22.098 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 22.098 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 21.336 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 20.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15a02d3f-c58a-4409-8829-0cbc382bb636")
+		)
+		(pin "1"
+			(uuid "c5985249-df98-48be-9301-58caf8cbfa34")
+		)
+		(instances
+			(project ""
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "syms_foots:WS2812B-2020")
+		(at 184.15 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe5a367-4509-4645-9a80-2734fb9a1aef")
+		(property "Reference" "LED7"
+			(at 184.15 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 184.15 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "syms_foots:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda215bd-4db9-4c0c-8e8f-7374d3661939")
+		)
+		(pin "3"
+			(uuid "31cdf4c4-d5d2-4fbd-9800-31d660ab5091")
+		)
+		(pin "4"
+			(uuid "74f09e03-347c-4c94-b9bb-f2336fed8868")
+		)
+		(pin "2"
+			(uuid "34657c01-dd6b-4030-9070-a8ef619c9be7")
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801/a5eae629-9086-4412-931b-375d63218a43"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

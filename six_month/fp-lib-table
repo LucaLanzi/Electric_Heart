@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "syms_foots")(type "KiCad")(uri "${KIPRJMOD}/libs/syms_foots.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,875 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "760b3a53-058c-44df-84b8-d25bd41bf801")
+	(paper "A4")
+	(title_block
+		(title "Loving Reminder")
+		(date "2025-08-03")
+		(rev "1-A")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 12.7 12.7)
+		(end 103.632 197.866)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1b63602c-74c2-402d-a6a1-65cd5d896b9e)
+	)
+	(rectangle
+		(start 14.478 66.294)
+		(end 101.854 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 502392df-4d82-4e3b-a83f-942e0bf27d74)
+	)
+	(rectangle
+		(start 37.592 15.24)
+		(end 78.232 21.082)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bc17ac6a-fcf9-4867-a546-d9c4643d34fd)
+	)
+	(rectangle
+		(start 51.054 139.1285)
+		(end 63.5 142.8115)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid edb5b82c-f685-4eb2-a679-d19985ece034)
+	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 47.498 139.446 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0bb43717-1ccb-459e-92cc-2b8f76953665")
+	)
+	(text "+3V3_VCC"
+		(exclude_from_sim no)
+		(at 45.212 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3615276e-15b1-412d-bd18-0d4b0e7cf1b5")
+	)
+	(text "+5V_VCC"
+		(exclude_from_sim no)
+		(at 84.328 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "380453b8-be97-420c-b15d-7ddac2265282")
+	)
+	(text "+5V_USB"
+		(exclude_from_sim no)
+		(at 28.448 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e251aaf-c086-49ef-be32-13d4061d889d")
+	)
+	(text "Project Description"
+		(exclude_from_sim no)
+		(at 57.912 18.542 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "992d5dc0-171e-407e-9b58-d0b257bea2a6")
+	)
+	(text "I2C0"
+		(exclude_from_sim no)
+		(at 46.482 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a67a1d43-5f67-46d1-91eb-968aa0e24018")
+	)
+	(text "Level Shifter"
+		(exclude_from_sim no)
+		(at 56.896 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcc0e7a7-6d30-4d9c-94e4-497a7a62eb3e")
+	)
+	(text_box "Devices To Be Used:\n\nArduino ESP32 Nano -> Controls LEDs, Display, Controllable via web-server\nOLED Display -> 128x128, Displays custom messages, graphics, etc.\nPower Input -> 5v Rail for LEDs, 5v for Arduino.\nLevel Shifter -> Not needed if using Arduino Nano (Already has 5v logic)\nTemp Sensor -> For fun data\nHumidity Sensor -> For fun data\nMicrophone -> Reactive Audio\n"
+		(exclude_from_sim no)
+		(at 14.478 39.624 0)
+		(size 86.868 25.146)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "604aa3d8-290c-4d6c-9689-996af2104e24")
+	)
+	(text_box "Block Diagram"
+		(exclude_from_sim no)
+		(at 52.07 67.564 0)
+		(size 16.256 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6db4de98-0e9a-4eb7-b1bb-c2af05fc21e6")
+	)
+	(text_box "This is a little idea that came to mind when watching some online videos of some hobby projects to make at home. This idea came up because I want to implement something from my discipline in showing my love for Madison. So I wanted to make a little device that I, and Madison can send commands to over wifi? idfk to change brightness, color and message, while still showing my presence by some graphical stuff I can have on the display."
+		(exclude_from_sim no)
+		(at 14.224 24.384 0)
+		(size 86.868 13.716)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ea39e75-57c8-4afa-b809-10f172f1d45d")
+	)
+	(polyline
+		(pts
+			(xy 40.894 96.52) (xy 40.894 100.838)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "1f435302-e35e-4e6e-8689-73b446e389c9")
+	)
+	(polyline
+		(pts
+			(xy 82.804 131.064) (xy 85.09 131.064)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "258b812d-e7c4-4839-92e3-ee736fe00703")
+	)
+	(polyline
+		(pts
+			(xy 83.312 140.97) (xy 88.138 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "2fbb4948-9e5d-4ad1-99b4-b2f51fcede2d")
+	)
+	(polyline
+		(pts
+			(xy 61.468 92.202) (xy 37.338 92.202)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "3a061f53-edb6-4327-8e9e-a7a8f0ce1278")
+	)
+	(polyline
+		(pts
+			(xy 88.138 92.202) (xy 61.468 92.202)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "418b06a9-7086-40df-96e2-bc4722c94d59")
+	)
+	(polyline
+		(pts
+			(xy 63.754 120.396) (xy 66.04 120.396)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "5895529c-3885-42df-82f2-cb32571f2a5b")
+	)
+	(polyline
+		(pts
+			(xy 66.04 124.206) (xy 69.85 124.206)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "5a7925f7-f16b-4e1e-91b4-31ef956a2cd3")
+	)
+	(polyline
+		(pts
+			(xy 63.5 140.97) (xy 70.612 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(uuid "6719bc5c-dff7-46e3-834b-2b7500fe64cd")
+	)
+	(polyline
+		(pts
+			(xy 40.894 96.52) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "777f94fd-70be-41d2-ad29-5a76528589c6")
+	)
+	(polyline
+		(pts
+			(xy 66.04 116.84) (xy 70.104 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "87ca89bb-a5c0-45b4-b53e-5cafdb3e0c76")
+	)
+	(polyline
+		(pts
+			(xy 66.04 116.84) (xy 66.294 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b52634-b40c-4a8d-b559-1d4774682fbb")
+	)
+	(polyline
+		(pts
+			(xy 66.04 108.712) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "9fcd07ba-cac9-42a0-95b9-7b81ac8a46aa")
+	)
+	(polyline
+		(pts
+			(xy 82.804 124.206) (xy 85.09 124.206)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "af958ae8-cba6-4ced-9ebf-12901408a0a3")
+	)
+	(polyline
+		(pts
+			(xy 66.04 131.318) (xy 70.104 131.318)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "b27eabe8-1fe8-4c00-bb36-77616683cc94")
+	)
+	(polyline
+		(pts
+			(xy 82.804 116.586) (xy 85.09 116.586)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "b30681de-37ed-4cc1-8f37-7605b9c5e902")
+	)
+	(polyline
+		(pts
+			(xy 69.85 124.206) (xy 70.104 124.206)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "b8711e47-489a-4218-8859-9b4b8e5da970")
+	)
+	(polyline
+		(pts
+			(xy 70.104 124.206) (xy 70.104 124.206)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "ccc6a39c-05aa-44ac-8067-847e2fc4cf39")
+	)
+	(polyline
+		(pts
+			(xy 43.688 140.97) (xy 50.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(uuid "ce92aa56-641e-4301-806d-87da98dfd58b")
+	)
+	(polyline
+		(pts
+			(xy 37.338 92.202) (xy 37.338 101.092)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "d7ce7bc2-7974-4859-9176-83b4f206e760")
+	)
+	(polyline
+		(pts
+			(xy 85.09 96.52) (xy 85.09 131.064)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "db5698ab-f661-4e62-b930-615d3a2fe089")
+	)
+	(polyline
+		(pts
+			(xy 88.138 92.202) (xy 88.138 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "dd44973b-7962-42a0-9cc1-a7b20aabc40b")
+	)
+	(polyline
+		(pts
+			(xy 85.09 108.712) (xy 82.55 108.712)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "e4938d7a-1045-4949-8e60-cbef07ba4425")
+	)
+	(polyline
+		(pts
+			(xy 69.85 108.712) (xy 66.04 108.712)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "e7bcb2f5-8a34-4ee4-9746-cc466e1415a6")
+	)
+	(polyline
+		(pts
+			(xy 33.528 92.202) (xy 33.528 101.092)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "e7f5672e-4ed6-4a8d-98eb-ad3b4bf18bb4")
+	)
+	(polyline
+		(pts
+			(xy 43.688 119.634) (xy 50.8 119.634)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "ea6f3451-035f-45aa-8ba0-5a96ae1ad362")
+	)
+	(polyline
+		(pts
+			(xy 61.468 84.582) (xy 61.468 92.202)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "ed720397-7515-400c-8400-dfc6b6ec3561")
+	)
+	(polyline
+		(pts
+			(xy 82.55 108.458) (xy 82.55 108.712)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "edbc4939-48c3-4bd2-8a47-d7f2c31e8591")
+	)
+	(polyline
+		(pts
+			(xy 66.04 116.84) (xy 66.04 131.318)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 255 255 1)
+		)
+		(uuid "ee9c7e57-5429-4f6a-b7ca-e993d94d0b27")
+	)
+	(polyline
+		(pts
+			(xy 25.908 92.202) (xy 33.528 92.202)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "f3b3bd18-ae43-4bd8-9cf9-bcb368fc35d5")
+	)
+	(sheet
+		(at 70.104 114.808)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "206359c9-b7b4-4f02-b040-b8d6a2904fbc")
+		(property "Sheetname" "RTC"
+			(at 70.104 114.0964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 70.104 119.2026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 70.104 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 70.104 122.174)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51d7992b-5efb-448e-a8df-25baa80f47c6")
+		(property "Sheetname" "THP_Sensor"
+			(at 70.104 121.4624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp.kicad_sch"
+			(at 70.104 126.5686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.864 77.216)
+		(size 12.7 7.366)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fc7e097-8553-4173-8341-9ddf379b6edc")
+		(property "Sheetname" "Power Input"
+			(at 54.864 76.5044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Input.kicad_sch"
+			(at 54.864 85.1666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 70.612 139.192)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5eae629-9086-4412-931b-375d63218a43")
+		(property "Sheetname" "RBG_LEDS"
+			(at 70.612 138.4804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RBG_LEDS.kicad_sch"
+			(at 70.612 143.5866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 106.68)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a958bc1b-93fd-4bcf-8be5-c4c684da90e3")
+		(property "Sheetname" "Display"
+			(at 69.85 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 69.85 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 70.104 129.286)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce899300-c820-4feb-a011-2ab9ca819c68")
+		(property "Sheetname" "Microphone"
+			(at 70.104 128.5744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microphone.kicad_sch"
+			(at 70.104 133.6806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 115.57)
+		(size 12.7 9.652)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da2aef3f-66bc-4387-a5bf-be6a7dea6d4f")
+		(property "Sheetname" "I2C_Buffer"
+			(at 51.054 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer_level_shifting.kicad_sch"
+			(at 51.054 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.988 101.092)
+		(size 12.7 56.642)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7c6d3e0-cd7b-4bdf-9537-c97b6acf9670")
+		(property "Sheetname" "NANO_ESP32"
+			(at 19.812 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Arduino_Nano.kicad_sch"
+			(at 30.988 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "six_month"
+				(path "/760b3a53-058c-44df-84b8-d25bd41bf801"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
