@@ -693,7 +693,7 @@
 					)
 				)
 			)
-			(property "Footprint" "test:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
+			(property "Footprint" "syms_foots:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 				(at 0 -20.32 0)
 				(effects
 					(font
