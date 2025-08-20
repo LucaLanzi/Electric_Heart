@@ -5,4 +5,14 @@
 	(uuid "7f164302-15ab-4701-bce0-c9cb95dda467")
 	(paper "A4")
 	(lib_symbols)
+	(text "using this display https://www.adafruit.com/product/4741#technical-details"
+		(exclude_from_sim no)
+		(at 136.144 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1abbefc7-ea92-430c-aaef-19583fa8f4eb")
+	)
 )

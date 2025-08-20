@@ -660,7 +660,7 @@
     ],
     [
       "a5eae629-9086-4412-931b-375d63218a43",
-      "RBG_LEDS"
+      "RGB_LEDS"
     ],
     [
       "206359c9-b7b4-4f02-b040-b8d6a2904fbc",
@@ -669,10 +669,6 @@
     [
       "51d7992b-5efb-448e-a8df-25baa80f47c6",
       "THP_Sensor"
-    ],
-    [
-      "38ef48b2-00ab-4fa0-b3e8-bd789191affc",
-      "DAC and Aux"
     ]
   ],
   "text_variables": {}
